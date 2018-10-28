@@ -1,0 +1,137 @@
+/* CSS Document */
+
+body{
+	background: url(gambarku.jpg) no-repeat fixed;
+   -webkit-background-size: 100% 100%;
+   -moz-background-size: 100% 100%;
+   -o-background-size: 100% 100%;
+   background-size: 100% 100%;
+	font-family:"Century Gothic";
+	font-size:12px;
+	color:#2E2728;
+}
+
+#main{
+	margin:0 auto;
+	margin-top:10px;
+	width:450px;
+}
+.clearer{
+	clear:both;
+	float:none;
+}
+
+
+#container{
+	background:#f2f2f2;
+	padding:15px;
+	padding-left:60px;
+	padding-top:20px;
+	height:200px;
+	-moz-border-radius-topleft:7px;
+	-moz-border-radius-topright:7px;
+	-webkit-border-radius-topleft:7px;
+	-webkit-border-radius-topright:7px;
+	font-size : 26px;
+	box-shadow: 0px 2px 5px #474747;
+}
+
+.ikon{
+background-image: url("images/images_login/user.png");
+  background-repeat: no-repeat;
+  padding-left: 35px !important;
+  background-size: 10%;
+  background-position: 5px;
+}
+
+.ikon2{
+  background-image: url("images/images_login/pass.png");
+  background-repeat: no-repeat;
+  padding-left: 35px !important;
+  background-size: 10%;
+  background-position: 5px;
+}
+
+.form{
+	margin-left:30px; margin-bottom:10px; 
+}
+
+#form-login{
+	margin:1px;
+	margin-left: 27px;
+}
+
+#input{
+	background-color:#FFFFFF;
+	/*background-image:url(images/images_login/bg_login_input.gif);*/
+	padding:7px;
+	padding-bottom:8px;
+	padding-top:5px;
+	font-family:Verdana;
+	font-size:12px;
+	color:#6b6b6b;	
+	border:0.5px solid #d8d8d8;
+	-moz-border-radius:8px;
+	font-weight:bold
+}
+
+#input:focus{
+	border:1px solid #ffcc00;
+	margin-left:30px;
+	-moz-border-radius:10px;
+}
+#input:hover{
+	border:1px solid #adadad;
+	margin-left:30px;
+}
+
+/* Error Login */
+#error_login{
+	background-color:#f2f2f2;
+	/*background-image:url(images/images_login/bg_login_error.gif);*/
+	padding-top:10px;
+	padding-bottom:10px;
+	font-family:Tahoma;
+	font-weight:bold;
+	text-align:center;
+	-moz-border-radius:0px;
+box-shadow: 0px 1px 7px #474747;
+}
+
+a.clickhere{
+	color: #000000;
+	text-decoration:underline;
+}
+
+a.clickhere:hover{
+	color:#b27600;
+}
+
+/*tmbol login*/
+
+.hvr-fade {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  overflow: hidden;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+}
+.hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
+  background-color: #F8BC4B;
+  color: black;
+}
+
+.tombol{
+	background:#fcd488;
+	color: #6b6b6b;
+	padding: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration:none;
+	margin-top:4px; margin-left:180px; margin-bottom:7px; margin-right:2px;
+}
